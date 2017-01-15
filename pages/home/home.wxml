@@ -1,0 +1,7 @@
+
+<!--pages/home/home.wxml-->
+<view class="container">
+  <image src="{{image}}" mode="{{mode}}"></image>
+  <text class="title">{{title}}</text>
+  <text>{{content}}</text>
+</view>
