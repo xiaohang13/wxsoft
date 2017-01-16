@@ -3,12 +3,14 @@
     "pages/home/home",
     "pages/index/index",
     "pages/details/list",
+    "pages/aboutme/about",
+    "pages/lists/list",
     "pages/logs/logs"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "都是朋友嘛",
+    "navigationBarTitleText": "文艺工程师",
     "navigationBarTextStyle": "black"
   },
   "tabBar": {
@@ -16,15 +18,11 @@
     "list": [
       {
         "pagePath": "pages/home/home",
-        "text": "我的首页",
-        "iconPath": "images/2.png",
-        "selectedIconPath": "images/2.png"
+        "text": "我的首页"
       },
       {
         "pagePath": "pages/index/index",
-        "text": "关于我",
-        "iconPath": "images/4.png",
-        "selectedIconPath": "images/4.png"
+        "text": "关于我"
       }
     ]
   }

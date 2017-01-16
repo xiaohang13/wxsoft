@@ -1,0 +1,19 @@
+
+<!--pages/lists/list.wxml-->
+<view class="container">
+  <!-- 定义一个模板 -->
+  <template name="pageList">
+    <navigator url="../../pages/details/list?id={{id}}" hover-class="none">
+    <view>
+      <image src="{{img}}" class="in-img" background-size="cover" mode="scaleToFill"></image>
+    </view>
+    <view>{{title}}</view>
+    <view>{{cTime}}</view>
+    </navigator>
+  </template>
+
+  <!-- 循环输出模板 -->
+  <block wx:for="{{newList}}" wx:for-item="list">
+    <template is="pageList" data="{{...list}}"></template>
+  </block>
+</view>

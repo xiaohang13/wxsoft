@@ -1,7 +1,10 @@
 
 <!--pages/home/home.wxml-->
 <view class="container">
-  <image src="{{image}}" mode="{{mode}}"></image>
+  <image src="{{image}}" mode="{{mode}}" style="width: 200px; height: 200px;"></image>
   <text class="title">{{title}}</text>
-  <text>{{content}}</text>
+  <text class="content">{{content}}</text>
+  <navigator url="../../pages/aboutme/about" hover-class="navigator-hover">
+    <text style="display:{{status}}" class="go blink">{{submit_val}}</text>
+  </navigator>
 </view>

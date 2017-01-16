@@ -1,2 +1,7 @@
 <!--pages/details/list.wxml-->
-<text>pages/details/list.wxml</text>
+<view class="about">
+    <view>{{info.title}}</view>
+    <view>{{info.cTime}}</view>
+    <view><image src="{{info.img}}"></image></view>
+    <view>{{info.content}}</view>
+</view>
