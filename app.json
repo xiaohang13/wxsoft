@@ -1,7 +1,6 @@
 {
   "pages": [
     "pages/home/home",
-    "pages/index/index",
     "pages/details/list",
     "pages/aboutme/about",
     "pages/lists/list",
@@ -12,18 +11,5 @@
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "文艺工程师",
     "navigationBarTextStyle": "black"
-  },
-  "tabBar": {
-    "color": "#000000",
-    "list": [
-      {
-        "pagePath": "pages/home/home",
-        "text": "我的首页"
-      },
-      {
-        "pagePath": "pages/index/index",
-        "text": "关于我"
-      }
-    ]
   }
 }
